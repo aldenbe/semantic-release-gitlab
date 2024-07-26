@@ -3,7 +3,7 @@ import nock from "nock";
 import tempy from "tempy";
 import { stub } from "sinon";
 import publish from "../lib/publish.js";
-import authenticate from "./helpers/mock-gitlab.js";
+import { authenticate } from "./helpers/mock-gitlab.js";
 
 /* eslint camelcase: ["error", {properties: "never"}] */
 

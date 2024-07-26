@@ -1,7 +1,7 @@
 import test from "ava";
 import nock from "nock";
 import { stub } from "sinon";
-import authenticate from "./helpers/mock-gitlab.js";
+import { authenticate } from "./helpers/mock-gitlab.js";
 
 /* eslint camelcase: ["error", {properties: "never"}] */
 

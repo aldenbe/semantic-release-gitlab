@@ -2,7 +2,7 @@ import test from "ava";
 import nock from "nock";
 import { stub } from "sinon";
 import success from "../lib/success.js";
-import authenticate from "./helpers/mock-gitlab.js";
+import { authenticate } from "./helpers/mock-gitlab.js";
 import { RELEASE_NAME } from "../lib/definitions/constants.js";
 
 /* eslint camelcase: ["error", {properties: "never"}] */
